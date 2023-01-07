@@ -2,6 +2,14 @@
     margin: 0;
     font-family: 'Work Sans', 'Open Sans', sans-serif;
 }
+.section-title {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 30px;
+}
+
 /* #################      button      ################# */
 .btn-primary {
     padding: 20px 25px;
@@ -9,7 +17,6 @@
     background: #018de4;
     font-size: 20px;
     line-height: 23px;
-    text-align: right;
     border-radius: 5px;
     color: #FFFFFF;
     border-style: none;
@@ -89,13 +96,6 @@
     gap: 90px;
 }
 
-.section-title {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;
-    color: #151414;
-}
-
 .my-failures-description {
     line-height: 26px;
     color: #444343;
@@ -127,12 +127,18 @@
 
 .plan-container {
     display: flex;
+    align-items: center;
     gap: 86px;
+}
+.plans-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .plans-items-title {
-    font-weight: 700;
     font-size: 30px;
+    font-weight: 700;
     line-height: 35px;
     text-align: center;
     color: #151414;
@@ -144,10 +150,36 @@
     font-size: 25px;
     line-height: 29px;
     text-align: center;
-
-    /* Dark 03 */
-
     color: #737272;
+}
+/* #################        contact form  ############### */
+.contact{
+    margin: 130px 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     gap: 30px;
+}
+.contact-container {
+  border-radius: 5px;
+  background:  linear-gradient(90deg, #66abe3e1 0%, rgba(196, 197, 197, 0.265) 100%);
+  padding: 20px 100px;
+}
+.contact-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-container input{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.contact-btn{
+    display: flex;
+    justify-content: center;
 }
 
 /* ###############       mindset      ############# */
