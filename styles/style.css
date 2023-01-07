@@ -14,6 +14,12 @@
     color: #FFFFFF;
     border-style: none;
     cursor: pointer;
+    border: 2px solid #018de4;
+}
+.btn-primary:hover{
+    background: white;
+    color: #018de4;
+   
 }
 
 .btn-secondary {
@@ -21,14 +27,17 @@
     font-weight: 600;
     background: white;
     font-size: 20px;
-    border: 2px solid #018de4;
-    text-align: right;
+    border: 2px solid white;
     border-radius: 5px;
     color: #018de4;
     border-style: none;
     cursor: pointer;
 }
-
+.btn-secondary:hover {
+   color: white;
+   border: 2px solid white;
+   background: transparent;
+}
 /* ##################    header    ####################### */
 .header-container {
     display: flex;
@@ -187,7 +196,7 @@ footer {
 .footer-container {
     margin: 130px 230px;
     display: flex;
-    gap: 330px;
+    gap: 100px;
 }
 
 .footer-future {
